@@ -48,6 +48,13 @@ export const Container = styled.div<ContainerProps>`
     &::placeholder {
       color: #666360;
     }
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus,
+    &:-webkit-autofill:active {
+      -webkit-text-fill-color: #f4ede8 !important;
+      -webkit-box-shadow: 0 0 0px 50px #232129 inset;
+    }
   }
   svg {
     margin-right: 16px;
