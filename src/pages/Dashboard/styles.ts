@@ -71,6 +71,7 @@ export const Content = styled.main`
   margin: 64px auto;
   display: flex;
 `;
+
 export const Schedule = styled.div`
   flex: 1;
   margin-right: 120px;
